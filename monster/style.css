@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+#main{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(233, 128, 0);
+    
+}
+nav{
+    position: fixed;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0vw 10vw;
+    z-index: 99;
+
+}
+nav a{
+    font-size: 3vw;
+    text-decoration: none;
+   color:rgb(89, 172, 5);
+}
+.cntr-nav{
+    display: flex;
+    gap: 3vw;
+}
+nav i{
+    font-size: 1.5vw;
+    color: aliceblue;
+}
+nav #log{
+    height: 8vh;
+    width: 15vh;
+}
+.one{
+    width: 100%;
+    height: 100vh;
+    background-image: url('/photos/back1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#can{
+    width: 35%;
+    z-index: 2;
+    position: absolute;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1);
+
+
+}
+#ice-cube{
+    width: 15%;
+    position: absolute;
+    top: 10%;
+    left: 32%;
+    z-index: 1;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1);
+}
+#cubes{
+    width: 15%;
+    position:absolute;
+    z-index: 3;
+    top: 63%;
+    right: 35%;
+}
+.one h1{
+    font-size: 28vw;
+    color: whitesmoke;
+    font-family:"Big Shoulders Stencil", sans-serif;
+}
+
+    
+
+.two{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-image: url('/photos/subtleee.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+    
+}
+.two #lft-two{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+.two #rght-two{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+#lft-two #cubic{
+    height: 40%;
+    width: 60%;
+    margin-top: 50vh;
+    margin-right: 5vh;
+    
+}
+#rght-two h1{
+    font-family: "Roboto Slab", serif;
+    color: #fff;
+    font-size: 10vh;
+
+}
+#rght-two p{
+    font-family: "Open Sans", sans-serif;
+    color: #fff;
+   margin-top: 08vh;
+   font-size: 3vh;
+   width: 80%;
+}
+.three{
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5vw;
+    width: 100%;
+    height: 100vh;
+    
+    background-image: url('/photos/handofgod.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+
+.card{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25vw;
+    height: 65vh;
+    margin-top: 10vh;
+    background-color: #e1dcdc;
+    border-radius: 20px;
+}
+.card:nth-child(1){
+    background-image: url('/photos/butterrr.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card:nth-child(2){
+    background-image: url('/photos/pip.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card:nth-child(3){
+    background-image: url('/photos/appp.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card h1{
+    font-size: 2vw;
+    font-family: "Roboto Slab", serif;
+    font-weight: 3px;
+    margin-top: 55vh;
+    color: white;
+}
+#mari{
+    top: -12%;
+    position: absolute;
+    transform: translate(-50%,0%);
+    width: 100%;
+    left: 48%;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1);
+}
+#pipe-punch{
+    top: -12%;
+    position: absolute;
+    transform: translate(-50%,0%);
+    width: 100%;
+    left: 48%;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1);
+}
+#apple-bad{
+    top: -12%;
+    position: absolute;
+    transform: translate(-50%,0%);
+    width: 100%;
+    left: 48%;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1);
+}
+#butterflyy{
+    top: -30%;
+    left: 48%;
+    transform: translate(-50%,0%);
+
+    position: absolute;
+    width: 25vw;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1);
+    
+
+}
+#pine-ple{
+    top: -50%;
+    left: 48%;
+    transform: translate(-50%,0%);
+
+    position: absolute;
+    width: 12vw;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1);
+}
+#aps{
+    top: -38%;
+    left: 48%;
+    transform: translate(-50%,0%);
+
+    position: absolute;
+    width: 18vw;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1);
+}
